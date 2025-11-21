@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS Groups (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS Contacts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone VARCHAR(20)
+);
+
+CREATE TABLE IF NOT EXISTS ContactGroup (
+    contact_id INT,
+    group_id INT,
+    PRIMARY KEY (contact_id, group_id),
+    FOREIGN KEY (contact_id) REFERENCES Contacts(id) ON DELETE CASCADE,
+    FOREIGN KEY (group_id) REFERENCES Groups(id) ON DELETE CASCADE
+);
