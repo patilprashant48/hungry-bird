@@ -49,6 +49,9 @@ This is an Address Book application that allows users to manage their contacts a
 - Use the interface to add new contacts and groups.
 - Assign contacts to groups and filter contacts by group.
 - Edit or delete contacts and groups as needed.
+-
+- <img width="1920" height="1080" alt="Screenshot 2025-11-21 202749" src="https://github.com/user-attachments/assets/6fffa2bb-4ffa-4496-b630-7bb47e532f95" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-21 202758" src="https://github.com/user-attachments/assets/58562673-2d78-42cb-b544-716831ca428b" />
 
 ## License
 
