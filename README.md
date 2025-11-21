@@ -12,42 +12,8 @@ This is an Address Book application that allows users to manage their contacts a
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express
+- **Backend**: Node.js
 - **Database**: MySQL
-
-## Project Structure
-
-```
-address-book-app
-├── src
-│   ├── server.js
-│   ├── config
-│   │   └── database.js
-│   ├── controllers
-│   │   ├── contactController.js
-│   │   └── groupController.js
-│   ├── models
-│   │   ├── Contact.js
-│   │   ├── Group.js
-│   │   └── ContactGroup.js
-│   ├── routes
-│   │   ├── contactRoutes.js
-│   │   └── groupRoutes.js
-│   └── middleware
-│       └── errorHandler.js
-├── public
-│   ├── index.html
-│   ├── css
-│   │   └── styles.css
-│   └── js
-│       ├── app.js
-│       ├── contactManager.js
-│       └── groupManager.js
-├── database
-│   └── schema.sql
-├── package.json
-└── README.md
-```
 
 ## Setup Instructions
 
@@ -73,7 +39,7 @@ address-book-app
 
 6. Start the server:
    ```
-   node src/server.js
+   npm start
    ```
 
 7. Open your browser and navigate to `http://localhost:3000` to access the application.
